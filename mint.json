@@ -67,7 +67,16 @@
         "engagement/cadence",
         "engagement/email",
         "engagement/call",
-        "engagement/task",
+        {
+          "group": "Task",
+          "icon": "calendar",
+          "pages": [
+            "engagement/task/task-overview",
+            "engagement/task/task-property",
+            "engagement/task/task-management",
+            "engagement/task/task-search"
+          ]
+        },
         "engagement/alert"
       ]
     },
