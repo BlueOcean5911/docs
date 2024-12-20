@@ -36,9 +36,29 @@
     {
       "group": "Data Enrichement",
       "pages": [
-        "data/lead",
-        "data/company",
-        "data/synchronize"
+        {
+          "group": "Lead",
+          "icon": "user",
+          "pages": [
+            "data/lead/manage-lead",
+            "data/lead/search-lead"
+          ]
+        },
+        {
+          "group": "Company",
+          "icon": "building",
+          "pages": [
+            "data/company/manage-company",
+            "data/company/search-company"
+          ]
+        },
+        {
+          "group": "CRM Integration",
+          "icon": "screwdriver-wrench",
+          "pages": [
+            "data/crm-integration/crm-integration-hubspot"
+          ]
+        }
       ]
     },
     {
@@ -58,33 +78,8 @@
         "setting/security",
         "setting/users",
         "setting/company-data",
-        "setting/uprade-plan",
+        "setting/upgrade-plan",
         "setting/inbox"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
       ]
     }
   ],
