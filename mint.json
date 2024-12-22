@@ -67,10 +67,11 @@
         "engagement/cadence",
         {
           "group": "Email",
-          "icon": "phone",
+          "icon": "envelope",
           "pages": [
             "engagement/email/email-overview",
             "engagement/email/email-management",
+            "engagement/email/email-tracking",
             "engagement/email/email-analytics",
             "engagement/email/email-search"
           ]
