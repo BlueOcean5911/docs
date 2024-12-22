@@ -65,8 +65,28 @@
       "group": "Engagement",
       "pages": [
         "engagement/cadence",
-        "engagement/email",
-        "engagement/call",
+        {
+          "group": "Email",
+          "icon": "phone",
+          "pages": [
+            "engagement/email/email-overview",
+            "engagement/email/email-management",
+            "engagement/email/email-analytics",
+            "engagement/email/email-search"
+          ]
+        },
+        {
+          "group": "Call",
+          "icon": "phone",
+          "pages": [
+            "engagement/call/call-overview",
+            "engagement/call/outbound-call",
+            "engagement/call/inbound-call",
+            "engagement/call/call-management",
+            "engagement/call/call-analytics",
+            "engagement/call/call-search"
+          ]
+        },
         {
           "group": "Task",
           "icon": "calendar",
