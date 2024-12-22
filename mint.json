@@ -64,7 +64,30 @@
     {
       "group": "Engagement",
       "pages": [
-        "engagement/cadence",
+        {
+          "group": "Cadence",
+          "icon": "paper-plane-top",
+          "pages": [
+            "engagement/cadence/cadence-overview",
+            {
+              "group": "Cadence Management",
+              "pages": [
+                "engagement/cadence/cadence-management/cadence-management",
+                "engagement/cadence/cadence-management/email-management-in-cadence",
+                "engagement/cadence/cadence-management/lead-management-in-cadence"
+              ]
+            },
+            {
+              "group": "Cadence Tracking",
+              "pages": [
+                "engagement/cadence/cadence-tracking/cadence-step-tracking-in-cadence",
+                "engagement/cadence/cadence-tracking/email-tracking-in-cadence",
+                "engagement/cadence/cadence-tracking/lead-tracking-in-cadence"
+              ]
+            },
+            "engagement/cadence/cadence-search"
+          ]
+        },
         {
           "group": "Email",
           "icon": "envelope",
